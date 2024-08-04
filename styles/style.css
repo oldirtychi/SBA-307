@@ -1,0 +1,24 @@
+#header {
+    font-family: 'Bungee Spice';
+ }
+
+.card-body {
+    display:inline-flexbox
+    border: 1px solid black;
+    width: 300px;
+    
+ }
+ 
+ .img-container img {
+    max-width: 100%;
+    height: auto;
+ }
+ 
+.card-body h1 {
+    text-align: center;
+    margin: 8px;
+ }
+ 
+ footer {
+    text-align: end;
+ }
