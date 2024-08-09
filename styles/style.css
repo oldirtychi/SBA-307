@@ -1,24 +1,37 @@
-#header {
-    font-family: 'Bungee Spice';
- }
-
-.card-body {
-    display:inline-flexbox
-    border: 1px solid black;
-    width: 300px;
-    
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #ba3c3c;
  }
  
- .img-container img {
-    max-width: 100%;
-    height: auto;
+ li {
+   float: left;
+   border-right: 1px solid #bbb;
  }
  
-.card-body h1 {
-    text-align: center;
-    margin: 8px;
+ li:last-child {
+   border-right: none;
+ }
+ 
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ li a:hover:not(.active) {
+   background-color: #a29931;
+ }
+ 
+ .active {
+   background-color: #ed0d09;
  }
  
  footer {
     text-align: end;
+    color: aliceblue;
  }

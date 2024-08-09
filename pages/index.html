@@ -13,31 +13,42 @@
 <body>
     <!-- Name of Restaurant -->
     <div id="header">  
-        <!-- Inline CSS styling  -->
     <h1 style="text-align: center;">
         
         <b>Ol' Dirty's Chinese Restaurant</b>
         
     </h1>
     </div>
-    
-    <!-- Picture will link to their respective pages -->
-    <div class="card-body">
-        <div class="img-container">
-          <img src="../images/chineserest.jpg" alt="picture of shop">
-        </div>
-        <h1>Reservations</h1>
-      </div>
 
-      <div class="card-body">
-        <div class="img-container">
-          <img src="../images/dimsum.jpg" alt="dim sum">
-        </div>
-        <h1>Menu</h1>
-      </div>
+    <nav>
+      <ul>
+        <li><a class="active" href="../pages/index.html">Home</a></li>
+        <li><a href="../pages/menu.html">Menu</a></li>
+        <li><a href="../pages/Login-page.html">Order Now</a></li>
+        <li style="float:right"><a href="../pages/Login-page.html">Sign up/Login</a></li>
+     </ul>
+    </nav>
+
+    <section class="body-gifs">
+      <img src="../images/gifs/eating dimsum.gif" alt="eating dimsum">
+    </section>
+
+    <section class="body-gifs">
+      <img src="../images/gifs/beef-steamed-bun-gif.gif" alt="making-buns">
+    </section>
 
       <footer>
+        <!-- language drop down menu -->
+        <form action="#">
+          <label>Choose a Language:</label>
+          <select name="Language">
+            <option value="Chinese">Chinese</option>
+            <option value="English" selected>English</option>
+          </select>
         
+          <input type="submit">
+        </form>        
+        <!-- hole in the wall spots always have outdated copyrights -->
         <h6>Copyright 2016 © Ol' Dirty's Chinese Restaurant</h6>
       </footer>
 
